@@ -192,7 +192,25 @@ a:hover {
 
 	.bar-pos {
 		text-align: center;
-		font-size: 8vmin !important;
+		font-size: 5vmin !important;
+	}
+
+	#location-bar {
+		position: relative !important;
+	}
+
+	#map-canvas {
+		position: relative !important;
+		height: 85% !important;
+	}
+
+	#loc-check {
+		height: 50%;
+		padding-top: 2%;
+	}
+
+	#loc-btn {
+		padding-bottom: 2%;
 	}
 }
 
