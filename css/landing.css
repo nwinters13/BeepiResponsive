@@ -48,7 +48,7 @@ a:hover {
 }
 
 .message {
-	text-align: right;
+	text-align: center;
 }
 
 .message-block {
@@ -58,6 +58,7 @@ a:hover {
 .title-block {
 	height: 25%;
 	float-left;
+	margin-top: 5%;
 }
 
 .title-text {
