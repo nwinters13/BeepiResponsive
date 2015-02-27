@@ -81,12 +81,28 @@ a:hover {
 	margin-bottom: 0px !important;
 }
 
+#launch-wrapper {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+#launch-wrapper:after {
+	padding-top: 66.5%;
+	display: block;
+	content: '';
+}
+
 #launch {
 	background: url('images/coronado.jpg') no-repeat;
 	width: 100%;
 	height: 60%;
-	background-size: 100% 100%;
-	position: relative;
+	background-size: 100% auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
 }
 
 
