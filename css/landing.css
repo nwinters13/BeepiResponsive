@@ -57,6 +57,7 @@ a:hover {
 
 .title-block {
 	height: 25%;
+	float-left;
 }
 
 .title-text {
