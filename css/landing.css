@@ -62,7 +62,7 @@ a:hover {
 
 .title-text {
 	color: white;
-	font-size: 5vmin;
+	font-size: 8vmin;
 	text-align: center;
 	font-family: "Raleway";
 }
@@ -73,6 +73,7 @@ a:hover {
 	line-height: 100%;
 	display: inline-block;
 	vertical-align: middle;
+	float: left !important;
 }
 
 #top-bar {
