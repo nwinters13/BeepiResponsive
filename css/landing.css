@@ -106,8 +106,7 @@ a:hover {
 	.bot-nav ul li{width: 20%; padding-left: 2%; padding-right: 2%; display: inline;}
 	.bot-nav ul li:first-child{}
 	.bot-nav ul li:last-child{}
-	.bot-nav ul li a { height: inherit; color: #EEEEEE; width: 100%;}
-	.bot-nav ul li a:hover{width: 100%; position: inherit;}
+	.bot-nav ul li a { height: inherit; color: #EEEEEE; width: 100%; text-decoration: none;}
 
 
 /* Large desktops and laptops */
@@ -152,7 +151,7 @@ a:hover {
 
 	.title-block {
 		margin-top: 12% !important;
-		margin-bottom: 15% !important;
+		margin-bottom: 12% !important;
 	}
 
 	.title-text {
@@ -166,6 +165,8 @@ a:hover {
 	.bot-nav-container {
 		visibility: hidden;
 	}
+
+
 
 }
 
