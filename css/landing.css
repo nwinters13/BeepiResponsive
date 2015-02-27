@@ -21,9 +21,7 @@ a:hover {
 	color: #00bd6f;
 }
 
-p {
-	margin: 0 0 0 0 !important;
-}
+
 .green-text {
 	color: #00BD6F !important;
 }
@@ -35,6 +33,33 @@ p {
 .bold {
 	font-weight: bold;
 }
+
+#top-bar {
+	margin-bottom: 0px !important;
+}
+
+#launch {
+	background: url('images/panorama.jpg') no-repeat;
+	width: 100%;
+	height: 33%;
+	background-size: 100% 100%;
+}
+
+#message {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .brand-image {
 	width: 50%;
