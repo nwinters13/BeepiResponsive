@@ -134,9 +134,14 @@ a:hover {
 
 /* Landscape phones and smaller */
 @media (max-width: 767px) {
+
+	.message-block {
+		margin-top: 5%;
+	}
+
 	.message {
 		text-align: center;
-		font-size: 4vmin;
+		font-size: 6vmin;
 	}
 
 	.title-block {
@@ -145,7 +150,7 @@ a:hover {
 	}
 
 	.title-text {
-		font-size: 12vmin;
+		font-size: 16vmin;
 	}
 
 	#launch {
