@@ -101,7 +101,7 @@ a:hover {
 @media (min-width: 992px) and (max-width: 1199px) {
 	.message {
 		text-align: center;
-		font-size: 3vmin;
+		font-size: 2vmin;
 	}
 }
 
@@ -109,7 +109,7 @@ a:hover {
 @media (min-width: 768px) and (max-width: 991px) {
 	.message {
 		text-align: center;
-		font-size: 4vmin;
+		font-size: 1.5vmin;
 	}
 }
 
@@ -125,7 +125,7 @@ a:hover {
 @media (max-width: 480px) {
 	.message {
 		text-align: center;
-		font-size: 2vmin;
+		font-size: 4vmin;
 	}
 }
 
