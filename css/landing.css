@@ -89,6 +89,19 @@ a:hover {
 }
 
 
+
+.bot-nav-container{width: 80%;
+               vertical-align: text-top; margin-left: 10%; margin-right: 10%; margin-top: 2%;}
+
+.bot-nav { width: 100%;}
+	.bot-nav ul {text-align: center; padding-left: 0px !important;}
+	.bot-nav ul li{width: 20%; padding-left: 2%; padding-right: 2%; display: inline;}
+	.bot-nav ul li:first-child{}
+	.bot-nav ul li:last-child{}
+	.bot-nav ul li a { height: inherit; color: #EEEEEE; width: 100%;}
+	.bot-nav ul li a:hover{width: 100%; position: inherit;}
+
+
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 	.message {
@@ -102,6 +115,10 @@ a:hover {
 	.message {
 		text-align: center;
 		font-size: 2vmin;
+	}
+
+	.bot-nav-container {
+		margin-top: 30%;
 	}
 }
 
@@ -133,6 +150,10 @@ a:hover {
 
 	#launch {
 		height: 100% !important;
+	}
+
+	.bot-nav-container {
+		visibility: hidden;
 	}
 
 }
