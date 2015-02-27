@@ -189,6 +189,10 @@ a:hover {
 	.bot-nav-container {
 		visibility: hidden;
 	}
+
+	.bar-pos {
+		text-align: center;
+	}
 }
 
 .brand-image {
