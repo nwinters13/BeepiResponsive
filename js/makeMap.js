@@ -12,6 +12,7 @@ function initialize() {
       zoom: 11,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       scrollwheel: false,
+      draggable: false,
     }
     var tempMap = new google.maps.Map(mapCanvas, mapOptions);
     map = tempMap;
