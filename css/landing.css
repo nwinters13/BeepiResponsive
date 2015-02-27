@@ -141,7 +141,7 @@ a:hover {
 @media (max-width: 767px) {
 
 	.message-block {
-		margin-top: 5%;
+		padding-top: 5%;
 	}
 
 	.message {
