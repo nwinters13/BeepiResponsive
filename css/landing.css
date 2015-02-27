@@ -139,6 +139,12 @@ a:hover {
 	.bot-nav-container {
 		font-size: 4vmin;
 	}
+
+	.bar-pos {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
 }
 
 /* Portrait tablets and medium desktops */
@@ -148,6 +154,12 @@ a:hover {
 		font-size: 2vmin;
 	}
 
+	.bar-pos {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
 }
 
 /* Portrait tablets and small desktops */
@@ -155,6 +167,12 @@ a:hover {
 	.message {
 		text-align: center;
 		font-size: 1.5vmin;
+	}
+
+	.bar-pos {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
 	}
 
 }
@@ -204,13 +222,13 @@ a:hover {
 		height: 85% !important;
 	}
 
-	#loc-check {
+	#loc-text {
 		height: 50%;
 		padding-top: 2%;
 	}
 
 	#loc-btn {
-		padding-bottom: 2%;
+		height: 30%;
 	}
 }
 
@@ -270,9 +288,6 @@ a:hover {
 }
 
 .bar-pos {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
   font-size: 3vmin;
   color: white;
 }
