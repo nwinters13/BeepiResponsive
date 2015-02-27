@@ -1,0 +1,58 @@
+.sprite {
+	background: url("images/sprite.png") no-repeat;
+	float: left;
+	height: 66px;
+	width: 66px;
+	margin-left: 10%;
+}
+
+.sprite-about {
+	background: url("images/sprite.png") no-repeat center;
+	position: relative;
+	text-align: center;
+}
+
+.sprite-sell-1 {
+	background-position: -643px -1px;
+}
+
+.sprite-sell-2 {
+	background-position: -643px -68px;
+}
+
+.sprite-sell-3 {
+	background-position: -643px -135px;
+}
+
+.sprite-buy-1 {
+	background-position: -710px -1px;
+}
+
+.sprite-buy-2 {
+	background-position: -710px -68px;
+}
+
+.sprite-buy-3 {
+	background-position: -710px -135px;
+}
+
+.sprite-about-1 {
+	background-position: -215px -1px, center;
+	height: 68px;
+	width: 65px;
+	margin-left: calc(50% - 32.5px);
+}
+
+.sprite-about-2 {
+	background-position: -280px -1px, center;
+	height: 68px;
+	width: 70px;
+	margin-left: calc(50% - 35px);
+}
+
+.sprite-about-3 {
+	background-position: -350px -1px, center;
+	height: 68px;
+	width: 78px;
+	margin-left: calc(50% - 37px);
+}

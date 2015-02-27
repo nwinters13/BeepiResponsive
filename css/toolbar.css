@@ -1,0 +1,46 @@
+.btn-promo {
+	background-color:black;
+	border-color:white;
+	color: #00BD6F;
+	font-size: 30px;
+}
+
+#map-btn:hover {
+	border-color: #009BFF;
+	background-color: #009BFF;
+	color: white;
+}
+
+.btn-pane {
+	z-index: 1000;
+}
+.btn-pane:hover {
+	border-color: #00BD6F;
+	background-color: #00BD6F;
+	color: white;
+}
+
+.btn-map-select {
+	border-color: black;
+	background-color: black;
+	color: white;
+}
+
+.btn-map-select:hover {
+	border-color: black !important;
+	background-color: black !important;
+	color: #00BD6F !important;
+}
+
+.btn-selected {
+	border-color: black;
+	background-color: #009BFF;
+	color: white;
+}
+
+.btn-toolbar-map {
+	margin-top: .5%;
+	width: 40%;
+	margin-left: 17.5%;
+	float: left;
+}
