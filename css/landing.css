@@ -47,10 +47,7 @@ a:hover {
 	font-size: 0vw;
 }
 
-.message {
-	text-align: center;
-	font-size: 2vmin;
-}
+
 
 .message-block {
 	height: 25%;
@@ -92,6 +89,45 @@ a:hover {
 }
 
 
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	.message {
+		text-align: right;
+		font-size: 2vmin;
+	}
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.message {
+		text-align: center;
+		font-size: 3vmin;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.message {
+		text-align: center;
+		font-size: 4vmin;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.message {
+		text-align: center;
+		font-size: 4vmin;
+	}
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+	.message {
+		text-align: center;
+		font-size: 2vmin;
+	}
+}
 
 
 
