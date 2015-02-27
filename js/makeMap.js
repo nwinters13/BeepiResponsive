@@ -1,4 +1,5 @@
 var map;
+var geocoder;
 var zips = [];
 var labels = [];
 var pins = [];
@@ -16,7 +17,8 @@ function initialize() {
     }
     var tempMap = new google.maps.Map(mapCanvas, mapOptions);
     map = tempMap;
-
+    var tempCode = new google.maps.Geocoder();
+    geocoder = tempCode;
 
     map.set('styles', [
     	{
@@ -31,6 +33,47 @@ function initialize() {
     //createBoundaries();
     //createPins();
 }
+
+function codeAddress() {
+	var address = document.getElementById("loc-val").value;
+    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        map.setCenter(results[0].geometry.location);
+        var marker = new google.maps.Marker({
+            map: map,
+            position: results[0].geometry.location
+        });
+      } else {
+        alert("Geocode was not successful for the following reason: " + status);
+      }
+    });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function createPins() {
 	console.log('hi');

@@ -291,3 +291,7 @@ a:hover {
   font-size: 3vmin;
   color: white;
 }
+
+#check-address:hover {
+	cursor: pointer;
+}
