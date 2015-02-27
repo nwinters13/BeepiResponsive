@@ -68,7 +68,7 @@ a:hover {
 }
 
 .notify-text {
-	text-align: center;
+	text-align: right;
 	color: white;
 	line-height: 100%;
 	display: inline-block;
