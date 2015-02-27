@@ -113,7 +113,9 @@ a:hover {
 	}
 }
 
-/* Landscape phones and portrait tablets */
+
+
+/* Landscape phones and smaller */
 @media (max-width: 767px) {
 	.message {
 		text-align: center;
@@ -121,27 +123,12 @@ a:hover {
 	}
 
 	.title-block {
-		height: 25%;
-		float-left;
-		margin-top: 5%;
-		margin-bottom: 5%;
-	}
-
-	#launch {
-		height: 100% !important;
-	}
-}
-
-/* Landscape phones and smaller */
-@media (max-width: 480px) {
-	.message {
-		text-align: center;
-		font-size: 4vmin;
-	}
-
-	.title-block {
 		margin-top: 15% !important;
-		margin-bottom: 15% !important;
+		margin-bottom: 10% !important;
+	}
+
+	.title-text {
+		font-size: 12vmin;
 	}
 
 	#launch {
