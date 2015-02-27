@@ -10,23 +10,25 @@ function initialize() {
     var mapOptions = {
       center: new google.maps.LatLng(32.717741, -117.155588),
       zoom: 11,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      scrollwheel: false,
     }
     var tempMap = new google.maps.Map(mapCanvas, mapOptions);
     map = tempMap;
+
 
     map.set('styles', [
     	{
     		featureType: 'all',
     		elementType: 'geometry',
     		stylers: [
-    			{ saturation: -85}
+    			{ saturation: -10}
     		]
     	}
     ]);
 
-    createBoundaries();
-    createPins();
+    //createBoundaries();
+    //createPins();
 }
 
 function createPins() {
