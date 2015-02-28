@@ -147,6 +147,7 @@ a:hover {
 	}
 
 	.inspector-list ul {
+		font-size: 2vmin;
 		display: inline-block;
 	}
 
@@ -157,7 +158,7 @@ a:hover {
 
 	.inspector-name {
 		text-align: left;
-		font-size: 3vmin;
+		font-size: 5vmin;
 }
 
 
@@ -352,6 +353,13 @@ a:hover {
 }
 
 
+/*.inspector-list ul li:before {
+	display: marker;
+	
+	content: url('images/beepi_iso.png') left no-repeat;
+	width: 16px;
+	height: 16px;
+}*/
 
 
 
@@ -374,7 +382,7 @@ a:hover {
 @media (max-width: 991px) {
 	.inspector-name {
 		text-align: center;
-		font-size: 3vmin;
+		font-size: 6vmin;
 	}
 
 	.inspector-list {
@@ -383,9 +391,14 @@ a:hover {
 
 	.inspector-list ul {
 		display: inline-block;
+		margin: 0 !important;
+		padding: 0 !important;
 	}
 
 	.inspector-list ul li {
-		text-align: left;
+		list-style-type: none;
+		text-align: center;
+		font-size: 2vmin;
+		font-family: "Raleway";
 	}
 }
