@@ -405,11 +405,11 @@ a:hover {
 
 @media (max-width: 767px) {
 	.inspector-name {
-		font-size: 10vmin !important;
+		font-size: 8vmin !important;
 	}
 
 	.inspector-list ul li {
-		font-size: 5vmin !important;
+		font-size: 4vmin !important;
 	}
 
 	.sub-title {
