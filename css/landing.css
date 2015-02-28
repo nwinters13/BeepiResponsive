@@ -408,7 +408,7 @@ a:hover {
 		font-size: 10vmin !important;
 	}
 
-	.inspector-list {
+	.inspector-list ul li {
 		font-size: 5vmin !important;
 	}
 }
