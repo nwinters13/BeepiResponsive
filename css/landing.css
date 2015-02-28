@@ -402,3 +402,13 @@ a:hover {
 		font-family: "Raleway";
 	}
 }
+
+@media (max-width: 767px) {
+	.inspector-name {
+		font-size: 10vmin !important;
+	}
+
+	.inspector-list {
+		font-size: 5vmin !important;
+	}
+}
