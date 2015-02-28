@@ -411,4 +411,12 @@ a:hover {
 	.inspector-list ul li {
 		font-size: 5vmin !important;
 	}
+
+	.sub-title {
+		font-size: 5vmin !important;
+	}
+
+	.main-title {
+		font-size: 10vmin !important;
+	}
 }
