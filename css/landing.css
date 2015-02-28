@@ -99,7 +99,7 @@ a:hover {
 #launch {
 	background: url('images/coronado.jpg') no-repeat;
 	width: 100%;
-	height: 60%;
+	height: 70%;
 	background-size: cover;
 	position: relative;
 /*	position: absolute;
@@ -145,6 +145,23 @@ a:hover {
 		top: 50%;
 		transform: translateY(-50%);
 	}
+
+	.inspector-list ul {
+		display: inline-block;
+	}
+
+	.inpector-list li {
+		text-align: left;
+		float: left;
+	}
+
+	.inspector-name {
+		text-align: left;
+		font-size: 3vmin;
+}
+
+
+
 }
 
 /* Portrait tablets and medium desktops */
@@ -294,4 +311,81 @@ a:hover {
 
 #check-address:hover {
 	cursor: pointer;
+}
+
+#inspector {
+	width: 100%;
+	height: 70%;
+}
+
+#inspector-title {
+	text-align: center;
+	margin-top: 5%;
+}
+
+.sub-title {
+	font-size: 4vmin;
+	font-family: "Quicksand";
+}
+
+.main-title {
+	font-size: 6vmin;
+	font-family: "Raleway";
+	margin-bottom: 3%;
+}
+
+.inspector-picture {
+	margin: auto;
+	width: 208px;
+	height: 208px;
+	border-radius: 104px;
+	-webkit-border-radius: 104px;
+	-moz-border-radius: 104px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	background: url('images/noe.png') no-repeat center !important;
+}
+
+.pic-wrapper {
+	text-align: center;
+}
+
+
+
+
+
+/*@media (max-width: 1200px) {
+		.inspector-list {
+			text-align: center !important;
+	}
+
+	.inspector-list ul {
+		display: inline-block !important;
+	}
+
+	.inpector-list li {
+		text-align: left !important;
+		float: left !important;
+	}
+}*/
+
+
+@media (max-width: 991px) {
+	.inspector-name {
+		text-align: center;
+		font-size: 3vmin;
+	}
+
+	.inspector-list {
+		text-align: center;
+	}	
+
+	.inspector-list ul {
+		display: inline-block;
+	}
+
+	.inspector-list ul li {
+		text-align: left;
+	}
 }
